@@ -2,7 +2,7 @@
 
 ### Introduction
 
-The ColabNetwork module is designed to simulate a collaborative network among a set of agents (authors) and observe the dynamics of their collaborations over time. It is implemented using the Mesa library, which provides tools for building agent-based models.
+The ColabNetwork module (model.py) is designed to simulate a collaborative network among a set of agents (authors) and observe the dynamics of their collaborations over time. It is implemented using the Mesa library, which provides tools for building agent-based models.
 
 ### Dependencies
 
