@@ -34,7 +34,6 @@ from ColabNetwork import ColabNetwork
 
 Initialize the Model: Create an instance of the ColabNetwork class by specifying the parameters for the simulation.
 
-python
 
 model = ColabNetwork(
     num_nodes=100,  # Number of nodes (authors) in the network
@@ -54,11 +53,9 @@ model.run_model(n=100)  # Run the model for 100 steps
 
 Data Collection: Access the collected data using the datacollector attribute of the model.
 
-python
-
 data = model.datacollector.get_model_vars_dataframe()
 
-Explanation of Parameters
+### Explanation of Parameters
 
 num_nodes: Number of nodes (authors) in the network.
 
